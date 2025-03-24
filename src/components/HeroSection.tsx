@@ -24,6 +24,7 @@ const HeroSection: React.FC = () => {
             <span className="relative">
               confidence
               <span className="absolute -bottom-2 left-0 w-full h-2 bg-brand-200 -z-10"></span>
+              <span className="absolute inset-0 -z-20 bg-[url('/lovable-uploads/backdrop.png')] bg-cover bg-center opacity-20 blur-sm"></span>
             </span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
