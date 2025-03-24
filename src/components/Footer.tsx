@@ -1,6 +1,7 @@
+
 import React from "react";
 import { motion } from "framer-motion";
-import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react";
+import { Facebook, Instagram, Mail } from "lucide-react";
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -21,25 +22,16 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com"
+                href="mailto:vocalvervebiz@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Facebook"
+                aria-label="Email"
                 className="w-9 h-9 rounded-full bg-white border border-gray-200 flex items-center justify-center hover:bg-[#f0e6f4] hover:border-[#6f2586] transition-colors duration-300"
               >
-                <Facebook size={18} className="text-[#6f2586]" />
+                <Mail size={18} className="text-[#6f2586]" />
               </a>
               <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Twitter"
-                className="w-9 h-9 rounded-full bg-white border border-gray-200 flex items-center justify-center hover:bg-[#f0e6f4] hover:border-[#6f2586] transition-colors duration-300"
-              >
-                <Twitter size={18} className="text-[#6f2586]" />
-              </a>
-              <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/vocalvervebiz/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -48,22 +40,13 @@ const Footer: React.FC = () => {
                 <Instagram size={18} className="text-[#6f2586]" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.facebook.com/profile.php?id=61574559182458"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="LinkedIn"
+                aria-label="Facebook"
                 className="w-9 h-9 rounded-full bg-white border border-gray-200 flex items-center justify-center hover:bg-[#f0e6f4] hover:border-[#6f2586] transition-colors duration-300"
               >
-                <Linkedin size={18} className="text-[#6f2586]" />
-              </a>
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="YouTube"
-                className="w-9 h-9 rounded-full bg-white border border-gray-200 flex items-center justify-center hover:bg-[#f0e6f4] hover:border-[#6f2586] transition-colors duration-300"
-              >
-                <Youtube size={18} className="text-[#6f2586]" />
+                <Facebook size={18} className="text-[#6f2586]" />
               </a>
             </div>
           </div>
