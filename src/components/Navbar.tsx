@@ -49,22 +49,27 @@ const Navbar: React.FC = () => {
           </a>
         </motion.div>
 
+        <div className="absolute left-1/2 transform -translate-x-1/2 top-0 h-full flex items-center">
         <motion.nav
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="hidden md:flex items-center space-x-8"
+          className="flex items-center space-x-8"
         >
-          <a href="#features" className="subtle-underline text-sm font-medium">
-            Features
-          </a>
-          <a href="#about" className="subtle-underline text-sm font-medium">
-            About
-          </a>
-          <a href="#contact" className="subtle-underline text-sm font-medium">
-            Contact
-          </a>
+        <a href="#hero-section" className="subtle-underline text-sm font-medium">
+          About
+        </a>
+        <a href="#features" className="subtle-underline text-sm font-medium">
+          Features
+        </a>
+        <a href="#testimonials" className="subtle-underline text-sm font-medium">
+          Testimonials
+        </a>
+        <a href="#contact" className="subtle-underline text-sm font-medium">
+          Contact
+        </a>
         </motion.nav>
+        </div>
 
         <motion.div
           initial={{ opacity: 0, y: -10 }}
