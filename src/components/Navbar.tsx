@@ -34,10 +34,18 @@ const Navbar: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <a href="/" className="flex items-center">
-            <span className="font-display text-2xl font-semibold text-brand-700">
-              Vocal<span className="text-brand-500">Verve</span>
-            </span>
+          <a href="/" className="flex items-center gap-2">
+            <img 
+              src="/lovable-uploads/dfa14e20-d0b0-4877-a494-6e244098657b.png" 
+              alt="VocalVerve Logo" 
+              className="h-10 w-auto"
+            />
+            <div className="flex flex-col items-start">
+              <span className="font-display text-2xl font-semibold text-[#0a0960]">
+                Vocal<span className="text-[#6f2586]">Verve</span>
+              </span>
+              <span className="text-xs text-[#6f2586] font-medium -mt-1">SPEAK WITH CONFIDENCE</span>
+            </div>
           </a>
         </motion.div>
 
@@ -63,7 +71,7 @@ const Navbar: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <Button className="bg-brand-500 hover:bg-brand-600 button-glow">
+          <Button className="bg-[#6f2586] hover:bg-[#5a1e6e] button-glow text-white">
             Get Started
           </Button>
         </motion.div>
