@@ -1,3 +1,4 @@
+
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
@@ -5,16 +6,17 @@ import { ArrowDown } from "lucide-react";
 const HeroSection: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-      {/* Backdrop Image - FIXED */}
+      {/* Backdrop Image */}
       <div className="absolute inset-0 -z-10">
         <div 
           className="w-full h-full bg-cover bg-center"
           style={{ 
             backgroundImage: "url('https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')",
           }}
-        ></div>
-        {/* Dark overlay moved outside the background div */}
-        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+        >
+          {/* Dark overlay to ensure text readability */}
+          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+        </div>
       </div>
       
       {/* Gradient overlays */}
