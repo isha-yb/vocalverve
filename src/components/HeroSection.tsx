@@ -32,14 +32,15 @@ const HeroSection: React.FC = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <motion.button
+            <motion.a
               aria-label="Get Started with VocalVerve"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              href="#features"
               className="px-8 py-3 rounded-lg bg-brand-500 text-white font-medium shadow-lg shadow-brand-500/30 hover:shadow-brand-500/50 transition-all duration-300"
             >
               Get Started
-            </motion.button>
+            </motion.a>
             <motion.button
               aria-label="Learn More About VocalVerve"
               whileHover={{ scale: 1.05 }}

@@ -76,9 +76,13 @@ const Navbar: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <Button className="bg-[#6f2586] hover:bg-[#5a1e6e] button-glow text-white">
-            Get Started
-          </Button>
+          <a 
+            href="#features" 
+            className="bg-[#6f2586] hover:bg-[#5a1e6e] button-glow text-white px-4 py-2 rounded-md transition-all duration-300"
+          >
+          Get Started
+          </a>
+
         </motion.div>
       </div>
     </header>
