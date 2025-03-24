@@ -58,13 +58,6 @@ const HeroSection: React.FC = () => {
           transition={{ duration: 1, delay: 1 }}
           className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
         >
-          <a 
-            href="#features" 
-            className="flex flex-col items-center text-gray-400 hover:text-brand-500 transition-colors duration-300"
-          >
-            <span className="text-sm mb-2">Discover more</span>
-            <ArrowDown className="animate-bounce" size={20} />
-          </a>
         </motion.div>
       </div>
     </section>
