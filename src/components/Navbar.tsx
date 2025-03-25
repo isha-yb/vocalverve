@@ -8,7 +8,7 @@ import {
   Sheet,
   SheetContent,
   SheetTrigger,
-} from "@/components/ui/drawer";
+} from "@/components/ui/sheet";
 
 const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
